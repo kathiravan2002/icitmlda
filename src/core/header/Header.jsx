@@ -83,7 +83,7 @@ function Header() {
                         </div>
                     </Link>
                     <div className="hidden lg:block w-full relative right-15">
-                        <ul className="flex justify-end gap-10 poppins-medium text-[18px] rounded-r-[15px]  text-white bg-gradient-to-r from-[#A405A7] to-[#400241] shadow-lg py-5 lg:px-10 px-4 ">
+                        <ul className={`flex justify-end gap-10 poppins-medium text-[18px] rounded-r-[15px]  text-white  shadow-lg py-5 lg:px-10 px-4 ${scroll ? 'bg-[#900792] ' : 'bg-gradient-to-r from-[#A405A7] to-[#400241]  '} `}>
                             <li className="">
                                 <Link to='/' className={` ${isActive == '/' ? '' : '  '}`}>Home</Link>
                             </li>
