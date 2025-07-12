@@ -85,7 +85,7 @@ function Organizing() {
 
             <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0  ">
                 <div className="space-y-4">
-                    <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Organizing Committee</h2></div>
+                    <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Organizing Committee</h2></div></div>
                     <h2 className="namdhinggo-bold lg:text-[24px] text-[20px]">International Conference on <span className="text-[#CD40BF]">IoT, Machine Learning, </span> and <span className="text-[#CD40BF]">Data Analytics</span></h2>
                     <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">The Organizing Committee of <span className="inter-bold ">the International Conference on Internet of Things, Machine Learning, and Data Analytics </span> <span className="inter-regular opacity-85">consists of distinguished academicians, researchers, and industry experts committed to excellence in conference planning and execution. The committee plays a vital role in curating technical sessions, managing the peer-review process, and coordinating with speakers, authors, and participants. Their collective efforts ensure the delivery of a high-quality, impactful event that fosters innovation, collaboration, and knowledge exchange across the fields of IoT, machine learning, and data analytics.</span></p>
                 </div>
@@ -95,11 +95,14 @@ function Organizing() {
 
             <div className="max-w-[1400px] mx-auto px-4 2xl:px-0 lg:mt-15 mt-10 overflow-hidden">
                 <div className="flex justify-center lg:flex-row flex-col items-center gap-10">
-                    <div className="max-w-[600px] w-fit">
-                        <img src="/images/editorpage.jpg" alt="img" className="" />
+                    <div className="max-w-[600px] mx-auto w-fit">
+                        <img src="/images/editorpage.jpg" alt="img" className="hidden lg:block" />
                     </div>
                     <div className=" space-y-3  ">
-                        <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white mb-5  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Organizing Committee Roles And Responsibilities</h2></div>
+                        <div className="flex justify-center lg:justify-start"> <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white mb-5  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Organizing Committee Roles And Responsibilities</h2></div></div>
+                        <div className="max-w-[600px] mx-auto w-fit">
+                            <img src="/images/editorpage.jpg" alt="img" className="lg:hidden block" />
+                        </div>
                         <h2 className="namdhinggo-bold lg:text-[24px] text-[20px]">International Conference on <span className="text-[#CD40BF]">IoT, Machine Learning, </span> and <span className="text-[#CD40BF]">Data Analytics</span></h2>
 
                         {organize.map((item, index) => {
@@ -141,8 +144,8 @@ function Organizing() {
                                     </div>
 
                                     <div
-                                        className=" absolute bottom-0 right-0  lg:w-[60px] lg:h-[60px] w-[220px] h-[180px]  bg-[#CD40BF]  rounded-tl-full  transition-all duration-700  lg:group-hover:w-[300px]  lg:group-hover:h-[220px]  flex items-center justify-center  overflow-hidden" >
-                                        <div className=" lg:opacity-0 opacity-100 translate-y-2 transition-all duration-300 delay-300 group-hover:opacity-100 group-hover:translate-y-0 text-white text-center px-4" >
+                                        className=" absolute bottom-0 right-0  lg:w-[60px] lg:h-[60px] w-[220px] h-[180px]  bg-[#CD40BF]  rounded-tl-full  transition-all duration-500  lg:group-hover:w-[300px]  lg:group-hover:h-[220px]  flex items-center justify-center  overflow-hidden" >
+                                        <div className=" lg:opacity-0 opacity-100 translate-y-2 transition-all duration-500  group-hover:opacity-100 group-hover:translate-y-0 text-white text-center px-4" >
                                             <p className="namdhinggo-extrabold text-[24px] leading-tight ">{item.title}</p>
                                             <p className="namdhinggo-extrabold text-[14px] md:text-[16px] lg:text-[20px] leading-tight">
                                                 {item.name}
@@ -160,7 +163,7 @@ function Organizing() {
             </div>
 
             <div className="pb-15  max-w-[1400px] mx-auto mt-15 px-4 2xl:px-0">
-               <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto  bg-white  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px]  namdhinggo-extrabold text-[#CD40BF]  ">Join Us at ICITMLDA 2025</h2></div>
+                <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto  bg-white  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px]  namdhinggo-extrabold text-[#CD40BF]  ">Join Us at ICITMLDA 2025</h2></div>
                 <p className="md:text-[18px] text-[16px]  inter-semibold lg:text-center mt-5  opacity-85 text-justify">Experience groundbreaking research presentations and network with industry leaders</p>
 
                 <div className=" mt-10 flex items-center  ">

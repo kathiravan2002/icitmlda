@@ -82,7 +82,7 @@ function Contactus() {
 
             <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0 lg:mt-15 mt-10 ">
                 <div className="space-y-4">
-                    <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Contact Us</h2></div>
+                  <div className="flex justify-center lg:justify-start">  <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Contact Us</h2></div></div> 
                     <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">For any queries related to the International Conference on Internet of Things, Machine Learning, and Data Analytics , please feel free to contact us. Whether you need assistance with paper submission, registration, accommodation, or general information, our organizing team is here to help. We welcome communication from authors, participants, sponsors, and academic collaborators. You can reach us via email, phone, or through the official conference website. Prompt support and guidance will be provided to ensure a smooth and successful experience for all attendees.</p>
                 </div>
             </div>

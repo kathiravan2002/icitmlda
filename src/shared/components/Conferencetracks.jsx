@@ -70,9 +70,9 @@ function Conferencetracks() {
             </div>
 
 
-            <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0  mt-5 ">
+            <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0   ">
                 <div className="space-y-4">
-                    <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Conference Tracks</h2></div>
+                     <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Conference Tracks</h2></div></div>
 
                     <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">The conference tracks of <span className="inter-bold ">the International Conference on Internet of Things, Machine Learning, and Data Analytics </span>are designed to cover a broad spectrum of emerging technologies and applications. These tracks include specialized areas such as IoT architecture, smart systems, deep learning, data mining, big data analytics, cloud computing, cybersecurity, and intelligent automation. Each track offers a platform for researchers and practitioners to present their latest findings, share innovative solutions, and discuss real-world implementations that address global challenges through intelligent, data-driven, and interconnected technological systems.</p>
                 </div>

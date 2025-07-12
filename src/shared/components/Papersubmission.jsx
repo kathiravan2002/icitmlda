@@ -178,9 +178,9 @@ function Papersubmission() {
 
 
 
-            <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0  mt-5 ">
+            <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0">
                 <div className="space-y-4">
-                    <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Paper Submission</h2></div>
+                    <div className="flex justify-center lg:justify-start"> <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Paper Submission</h2></div></div>
 
                     <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">The Paper Submission section outlines the guidelines for submitting original research to the International Conference on Internet of Things, Machine Learning, and Data Analytics. Authors are invited to submit unpublished, high-quality papers that align with the conference themes. Submissions must follow the prescribed format and will undergo a rigorous peer-review process by experts. Accepted papers will be presented during the conference and considered for publication in the conference proceedings or associated journals. Authors are encouraged to adhere to submission deadlines and ensure clarity, relevance, and originality in their work.</p>
                 </div>

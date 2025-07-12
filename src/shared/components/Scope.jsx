@@ -56,8 +56,8 @@ function Scope() {
                         <div className="max-w-[600px] w-fit  " ><img src="/images/scopehome2.png" alt="image3" className="hidden lg:block" loading="lazy" /></div>
 
                         <div className=" space-y-5">
-                            <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Scope Of Our Conference</h2></div>
-                            <div className="max-w-[600px] w-fit  " ><img src="/images/scopehome2.png" alt="image3" className="block lg:hidden mt-8" loading="lazy" /></div>
+                            <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Scope Of Our Conference</h2></div></div> 
+                            <div className="max-w-[600px] mx-auto w-fit  " ><img src="/images/scopehome2.png" alt="image3" className="block lg:hidden mt-8" loading="lazy" /></div>
 
                             <h2 className="namdhinggo-bold lg:text-[24px] text-[20px]">International Conference on <span className="text-[#CD40BF]">IoT, Machine Learning, </span> and <span className="text-[#CD40BF]">Data Analytics</span></h2>
                             <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">The scope of ICITMLDA spans innovative research and practical advancements in Internet of Things (IoT), machine learning, and data analytics. The conference encourages the integration of intelligent technologies to solve real-world challenges. It aims to support digital transformation across industries by exploring scalable, efficient, and intelligent system designs and implementations.</p>

@@ -190,8 +190,8 @@ function Home() {
                                     </div>
 
                                     <div
-                                        className=" absolute bottom-0 right-0  lg:w-[60px] lg:h-[60px] w-[220px] h-[180px]  bg-[#CD40BF]  rounded-tl-full  transition-all duration-700  lg:group-hover:w-[250px]  lg:group-hover:h-[220px]  flex items-center justify-center  overflow-hidden" >
-                                        <div className=" lg:opacity-0 opacity-100 translate-y-2 transition-all duration-300 delay-300 group-hover:opacity-100 group-hover:translate-y-0 text-white text-center px-4" >
+                                        className=" absolute bottom-0 right-0  lg:w-[60px] lg:h-[60px] w-[220px] h-[180px]  bg-[#CD40BF]  rounded-tl-full  transition-all duration-500  lg:group-hover:w-[250px]  lg:group-hover:h-[220px]  flex items-center justify-center  overflow-hidden" >
+                                        <div className=" lg:opacity-0 opacity-100 translate-y-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 text-white text-center px-4" >
                                             <p className="namdhinggo-extrabold text-[14px] md:text-[16px] lg:text-[18px] leading-tight">
                                                 {item.name}
                                             </p>

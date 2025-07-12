@@ -102,9 +102,9 @@ function Datesandbank() {
 
 
 
-            <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0  mt-5 ">
+            <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0   ">
                 <div className="space-y-4">
-                    <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Important Dates & Bank Details</h2></div>
+                     <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Important Dates & Bank Details</h2></div></div>
 
                     <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">The Important Dates & Bank Details section provides participants with essential information regarding the timeline and payment process for the International Conference on Internet of Things, Machine Learning, and Data Analytics. This section outlines key deadlines for abstract submission, paper acceptance, registration, and final paper submission. It also includes the official bank details for fee payments, ensuring a smooth and secure transaction process. Participants are advised to follow the dates closely and complete payments within the specified timeframe to confirm their registration and participation in the conference.</p>
                 </div>

@@ -60,8 +60,8 @@ function About() {
                         <div className="max-w-[600px] w-fit  " ><img src="/images/abouthome.png" alt="image3" className="hidden lg:block" loading="lazy" /></div>
 
                         <div className=" space-y-5">
-                            <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">About Our Conference</h2></div>
-                            <div className="max-w-[600px] w-fit  " ><img src="/images/abouthome.png" alt="image3" className="block lg:hidden mt-7" loading="lazy" /></div>
+                           <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">About Our Conference</h2></div></div> 
+                            <div className="max-w-[600px] mx-auto w-fit  " ><img src="/images/abouthome.png" alt="image3" className="block lg:hidden mt-7" loading="lazy" /></div>
 
                             <h2 className="namdhinggo-bold lg:text-[24px] text-[20px]">International Conference on <span className="text-[#CD40BF]">IoT, Machine Learning, </span> and <span className="text-[#CD40BF]">Data Analytics</span></h2>
 
