@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="bg-[#CD40BF] text-white rounded-tl-xl rounded-tr-xl">
-      <div className=" mx-auto px-5 max-w-[90rem]  lg:py-10 py-5 ">
+      <div className=" mx-auto px-5 max-w-[1400px]  lg:py-10 py-5 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4  md:gap-8 gap-8 mt-5 lg:mt-0 ">
           <div className='text-center md:text-left flex flex-col justify-center items-start'>
-            {/* <Link to='/'>
+            <Link to='/'>
 
               <img className='md:w-45 w-35' src="/images/ICITMLDA.png" alt="logo" />
-            </Link> */}
-            <Link to="/" className="text-white text-4xl namdhinggo-extrabold">
-              ICITMLDA
             </Link>
+            {/* <Link to="/" className="text-white text-4xl namdhinggo-extrabold">
+              ICITMLDA
+            </Link> */}
 
           </div>
           <div className='lg:mx-auto md:text-left text-start '>
@@ -44,9 +44,9 @@ const Footer = () => {
               <div className=''>
                 <h4 className="lg:text-xl poppins-bold mb-2 ">Contact Info</h4>
                 <ul className="lg:text-base text-sm space-y-2">
-                  <li><a className=" inter-medium"><Link to=''>Beijing, China</Link></a></li>
+                  <li><a className=" inter-medium"><Link to=''>Chongqing, China</Link></a></li>
                   <li><a className=" inter-medium"><Link to=''>info.icitmlda@gmail.com</Link></a></li>
-                  <li><a className=" inter-medium"><Link to=''>+91 8870212121</Link></a></li>
+                  {/* <li><a className=" inter-medium"><Link to=''>+91 8870212121</Link></a></li> */}
                 </ul>
               </div>
             </div>

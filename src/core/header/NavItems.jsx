@@ -31,8 +31,8 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
   const about = [
     { name: "About the Conference", path: "/about" },
     { name: "Scope of Conference", path: "/scope" },
-    { name: "Organizing Committee", path: "/organize" },
-    { name: "Editorial Board", path: "/editorial" },
+    { name: "Organizing Committee", path: "/organizing-committee" },
+    { name: "Editorial Board", path: "/editorial-board" },
 
   ];
   const author = [

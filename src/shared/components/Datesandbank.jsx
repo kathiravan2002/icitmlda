@@ -47,32 +47,32 @@ function Datesandbank() {
 
     const dates = [
         {
-            content1: "August 10, 2025",
+            content1: "December 2, 2025",
             title: "Abstract Submission Deadline",
             icon: "📝"
         },
         {
-            content1: "August 10, 2025",
+            content1: "December 5, 2025",
             title: "Full Paper Submission Deadline",
             icon: "📄"
         },
         {
-            content1: "September 15, 2025",
+            content1: "December 10, 2025",
             title: "Notification of Acceptance",
             icon: "✅"
         },
         {
-            content1: "September 30, 2025",
+            content1: "December 15, 2025",
             title: "Final Paper Submission",
             icon: "📋"
         },
         {
-            content1: "September 15, 2025",
+            content1: "December 17, 2025",
             title: "Registration Deadline",
             icon: "🎟️"
         },
         {
-            content1: "October 24–26, 2025",
+            content1: "October 26, 2025",
             title: "Conference Dates",
             icon: "🎤"
         },
@@ -90,12 +90,12 @@ function Datesandbank() {
             <div className="lg:h-90 h-70   relative bg-cover bg-center " style={{ backgroundImage: "url('/images/allhero1.jpg')" }}>
                 <div className="absolute inset-0 bg-[#000000] opacity-65 lg:h-90 h-70 "></div>
                 <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-2">
-                    <h2 className="text-[24px] md:text-[36px] lg:text-[45px] namdhinggo-medium text-white lg:mt-10 mt-15">Important Dates & Bank Details</h2>
+                    <h2 className="text-[24px] md:text-[36px] lg:text-[45px] namdhinggo-medium text-white lg:mt-10 mt-15">Important Dates</h2>
                     <div className="flex space-x-2 ">
                         <Link to='/'>
                             <h2 className="md:text-[24px] text-[20px] namdhinggo-medium text-white hover:text-[#CD40BF] duration-300 ">Home</h2>
                         </Link>
-                        <h2 className="md:text-[24px] text-[20px] namdhinggo-medium  text-[#CD40BF] "><span className="text-white">/ </span>Important Dates & Bank Details</h2>
+                        <h2 className="md:text-[24px] text-[20px] namdhinggo-medium  text-[#CD40BF] "><span className="text-white">/ </span>Important Dates </h2>
                     </div>
                 </div>
             </div>
@@ -104,9 +104,9 @@ function Datesandbank() {
 
             <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0   ">
                 <div className="space-y-4">
-                     <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Important Dates & Bank Details</h2></div></div>
+                     <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white lg:mt-15 mt-10"><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Important Dates </h2></div></div>
 
-                    <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">The Important Dates & Bank Details section provides participants with essential information regarding the timeline and payment process for the International Conference on Internet of Things, Machine Learning, and Data Analytics. This section outlines key deadlines for abstract submission, paper acceptance, registration, and final paper submission. It also includes the official bank details for fee payments, ensuring a smooth and secure transaction process. Participants are advised to follow the dates closely and complete payments within the specified timeframe to confirm their registration and participation in the conference.</p>
+                    <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">The Important Dates & Bank Details section provides participants with essential information regarding the timeline and payment process for the International Conference on Internet of Things, Machine Learning, and Data Analytics. This section outlines key deadlines for abstract submission, paper acceptance, registration, and final paper submission. </p>
                 </div>
             </div>
 
@@ -229,8 +229,8 @@ function Datesandbank() {
                             <p className="namdhinggo-extrabold 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] text-[#CD40BF]">Ready to Join the Innovation ?</p>
                             <p className="inter-medium text-[16px] text-[#CD40BF] text-justify md:text-center ">Register now and secure your spot today to connect with global experts, explore emerging technologies, and be part of shaping the future of computer science.</p>
                             <div className="flex lg:flex-row flex-col lg:gap-10 gap-0 space-y-5  justify-center items-start sm:items-center lg:items-start">
-                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Beijing, China</p></div>
-                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">28th to 30th Sep, 2025</p></div>
+                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Chongqing, China</p></div>
+                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">26th December, 2025</p></div>
                                 <div className="flex gap-3"><BsFillClockFill className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">9:00 AM – 5:00 PM</p></div>
                             </div>
                             <Link to="/paper-submission">

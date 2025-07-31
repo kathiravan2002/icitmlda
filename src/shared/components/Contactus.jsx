@@ -36,15 +36,12 @@ function Contactus() {
             Object.entries(formData).forEach(([key, value]) => {
                 formDataToSend.append(key, value);
             });
-
-            const response = await fetch('http://192.168.29.71/icitmlda/contactus.php', {
+            const response = await fetch('https://icitmlda.com/api/contactus.php', {
                 method: 'POST',
                 body: formDataToSend,
             });
-
             const result = await response.text();
             setStatus(result);
-
             if (response.ok) {
                 toast.success("Message submitted successfully!");
                 setFormData({
@@ -62,13 +59,13 @@ function Contactus() {
             toast.error('An error occurred. Please try again.');
         }
     };
+
     return (
         <div>
             <div className="lg:h-90 h-70   relative bg-cover bg-center " style={{ backgroundImage: "url('/images/allhero1.jpg')" }}>
                 <div className="absolute inset-0 bg-[#000000] opacity-65 lg:h-90 h-70 "></div>
                 <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-2">
                     <h2 className="text-[24px] md:text-[36px] lg:text-[45px] namdhinggo-medium text-white lg:mt-10 mt-15">Contact Us</h2>
-                    <h2 className="lg:text-[28px] md:text-[20px] text-[18px] text-center namdhinggo-medium text-white  ">International Conference on Human-Computer Interaction and Emerging Technologies</h2>
                     <div className="flex space-x-2 ">
                         <Link to='/'>
                             <h2 className="md:text-[24px] text-[20px] namdhinggo-medium text-white hover:text-[#CD40BF] duration-300 ">Home</h2>
@@ -77,17 +74,14 @@ function Contactus() {
                     </div>
                 </div>
             </div>
-
-
-
             <div className=" max-w-[1400px] mx-auto px-4 2xl:px-0 lg:mt-15 mt-10 ">
                 <div className="space-y-4">
-                  <div className="flex justify-center lg:justify-start">  <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Contact Us</h2></div></div> 
+                    <div className="flex justify-center lg:justify-start">  <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Contact Us</h2></div></div>
                     <p className=" text-[16px] leading-[30px] text-justify inter-regular opacity-85">For any queries related to the International Conference on Internet of Things, Machine Learning, and Data Analytics , please feel free to contact us. Whether you need assistance with paper submission, registration, accommodation, or general information, our organizing team is here to help. We welcome communication from authors, participants, sponsors, and academic collaborators. You can reach us via email, phone, or through the official conference website. Prompt support and guidance will be provided to ensure a smooth and successful experience for all attendees.</p>
                 </div>
             </div>
-            <div className=" px-4 max-w-[1400px] mx-auto lg:mt-15 mt-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10" >
+            <div className=" px-4 max-w-[1050px] mx-auto lg:mt-15 mt-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10" >
                     <div className="flex gap-5 px-4 py-5 bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)] rounded-[25px]">
                         <div className="  flex justify-center items-center">
                             <IoLocationSharp className="text-[#CD40BF] text-[45px]" />
@@ -96,12 +90,12 @@ function Contactus() {
                             <h2 className="text-[#CD40BF] namdhinggo-extrabold lg:text-2xl text-xl">Location</h2>
                             <a href="" >
                                 <p className="inter-medium text-base  opacity-85">
-                                    Beijing, China
+                                    Chongqing, China
                                 </p>
                             </a>
                         </div>
                     </div>
-                    <div className="flex gap-5 px-4 py-5 bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)] rounded-[25px]">
+                    {/* <div className="flex gap-5 px-4 py-5 bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)] rounded-[25px]">
                         <div className="flex justify-center items-center">
                             <FiPhoneCall className="text-[#CD40BF] text-[45px]" />
                         </div>
@@ -113,7 +107,7 @@ function Contactus() {
                                 </p>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="flex gap-5 px-4 py-5 bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)] rounded-[25px] ">
                         <div className=" flex justify-center items-center">
                             <MdEmail className="text-[#CD40BF] text-[45px]" />
@@ -255,8 +249,8 @@ function Contactus() {
                             <p className="namdhinggo-extrabold 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] text-[#CD40BF]">Ready to Join the Innovation ?</p>
                             <p className="inter-medium text-[16px] text-[#CD40BF] text-justify md:text-center ">Register now and secure your spot today to connect with global experts, explore emerging technologies, and be part of shaping the future of computer science.</p>
                             <div className="flex lg:flex-row flex-col lg:gap-10 gap-0 space-y-5  justify-center items-start sm:items-center lg:items-start">
-                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Beijing, China</p></div>
-                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">28th to 30th Sep, 2025</p></div>
+                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Chongqing, China</p></div>
+                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">26th December, 2025</p></div>
                                 <div className="flex gap-3"><BsFillClockFill className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">9:00 AM – 5:00 PM</p></div>
                             </div>
                             <Link to="/paper-submission">

@@ -54,8 +54,8 @@ function Header() {
     const about = [
         { name: "About the Conference", path: "/about" },
         { name: "Scope of Conference", path: "/scope" },
-        { name: "Organizing Committee", path: "/organize" },
-        { name: "Editorial Board", path: "/editorial" },
+        { name: "Organizing Committee", path: "/organizing-committee" },
+        { name: "Editorial Board", path: "/editorial-board" },
 
     ];
     const author = [
@@ -76,9 +76,9 @@ function Header() {
                                     alt="logo"
                                     className="lg:w-100 md:w-70 sm:w-50 w-50"
                                 />
-                                <p className="absolute inset-0 flex items-center justify-center  mr-4 lg:text-4xl md:text-2xl text-xl text-white namdhinggo-extrabold  tracking-wider">
-                                    ICITMLDA
-                                </p>
+                                <div className="absolute inset-0 flex items-center justify-center  mr-4 lg:text-4xl md:text-2xl text-xl text-white namdhinggo-extrabold  tracking-wider">
+                                    <img src="/images/ICITMLDA.png" alt="" className="md:w-40 w-25 " />
+                                </div>
                             </div>
                         </div>
                     </Link>

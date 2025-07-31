@@ -39,24 +39,134 @@ function Editorial() {
 
     const editorial = [
         {
-            name: "Guman Singh Chauhan",
-            university: "Indian Institute of Management Bangalore",
-            expertise: " John Tesla Inc",
-            country: " Dallas,USA"
+            name: "Dr. Thendral Puyalnithi",
+            university: "Kalasalingam Academy of Research and Education",
+            expertise: "  Department of CSE",
+            country: " India"
         },
 
         {
-            name: "Rahul Jadon",
-            university: "Indian Institute of Management Bangalore",
-            expertise: " CarGurus Inc",
-            country: " Massachusetts,USA"
+            name: "Dr.B. MOHAMMED ",
+            university: "Al-Madinah International University",
+            expertise: "Faculty Of Finance & Admin. Science",
+            country: " Malaysia"
         },
         {
-            name: "Sreekar Peddi",
-            university: "Indian Institute of Management Bangalore",
-            expertise: "Tek Leaders",
-            country: " Texas, USA"
+            name: "Dr. Jawwad Sami Ur Rahman",
+            university: "Riphah International University",
+            expertise: "Biomedical Engineering Department",
+            country: " Pakistan"
         },
+        {
+            name: "Dr. Vibha Aggarwal",
+            university: "Riphah International University",
+            expertise: "Department of ECE",
+            country: " India"
+        },
+        {
+            name: "Dr.R. Arun Kumar",
+            university: "University of South Wales",
+            expertise: "Lecturer in Digital Forensics & Cyber Security",
+            country: " United Kingdom"
+        },
+        {
+            name: "Dr.Md. Foysal",
+            university: "Khulna University of Engineering and Technology Khulna",
+            expertise: "Department of ECE",
+            country: " Bangladesh"
+        },
+        {
+            name: "Dr. Rajeev Kumar Singh",
+            university: "Madhav Institute of Technology and Science",
+            expertise: " Department of IT",
+            country: " India"
+        },
+        {
+            name: "Dr.S. Prasanth",
+            university: "Sabaragamuwa University of Sri Lanka",
+            expertise: " Department of Physical Sciences and Technology",
+            country: " Sri Lanka"
+        },
+         {
+            name: "Dr.S. Jayanthi ",
+            university: "Tagore Institute of Engineering and Technology",
+            expertise: " Principal",
+            country: " India"
+        },
+        {
+            name: "Dr. Aaron Izang",
+            university: "Babcock University",
+            expertise: " Department of IT",
+            country: " Nigeria"
+        },
+        {
+            name: "Dr. Balakrishnan Baranitharan",
+            university: " Kalasalingam Academy of Research and Education",
+            expertise: " Department of Civil Engineering",
+            country: " India"
+        },
+      
+        {
+            name: "Dr. Pravin Futane",
+            university: " Vishwakarma Institute of Information Technology",
+            expertise: " Department of CSE",
+            country: " India"
+        },
+        {
+            name: "Dr. Ebelogu Christopher Ubaka",
+            university: " University of Abuja",
+            expertise: " Department of CS",
+            country: " Nigeria"
+        },
+        {
+            name: "Dr. Kabir G. Kharade",
+            university: " Shivaji University",
+            expertise: " Department of CSE",
+            country: " India"
+        },
+        {
+            name: "Dr. Salah Eddine Benatia",
+            university: " Mascara University",
+            expertise: " Department of CSE",
+            country: " Algeria"
+        },
+        {
+            name: "Dr. Ajanthaa Lakkshmanan",
+            university: " Sathyabama institute of science and technology",
+            expertise: " Department of CSE",
+            country: " India"
+        },
+        {
+            name: "Dr.A. Karthikeyan",
+            university: " SNS College of Technology",
+            expertise: " Department of AIE",
+            country: " India"
+        },
+        {
+            name: "Dr. Sakthivel Velusamy",
+            university: " Sathyabama institute of science and technology",
+            expertise: " Department of CSE",
+            country: " South Korea"
+        },
+        {
+            name: "Dr.S.S Akilan",
+            university: " Mepco Schlenk Engineering College",
+            expertise: "  Department of CA",
+            country: " India"
+        },
+        {
+            name: "Dr.D. Kayathri Devi",
+            university: "  Amity University",
+            expertise: "  Department of ITE",
+            country: " Uzbekistan"
+        },
+        {
+            name: "Dr.S. Raghavendra",
+            university: "  Manipal Institute of Technology",
+            expertise: "  Department of IC",
+            country: " India"
+        },
+       
         // {
         //     name: "Pramod Begur Nagaraj",
         //     university: "Indian Institute of Management Bangalore",
@@ -92,12 +202,12 @@ function Editorial() {
             <div className="max-w-[1400px] mx-auto px-4 2xl:px-0 lg:mt-15 mt-10 overflow-hidden">
                 <div className="flex justify-center lg:flex-row flex-col items-center gap-10">
                     <div className="max-w-[600px] mx-auto w-fit">
-                        <img src="/images/editorpage.jpg" alt="img" className="hidden lg:block" />
+                        <img src="/images/editorpage.jpg" alt="img" loading='lazy' className="hidden lg:block" />
                     </div>
                     <div className=" space-y-3  ">
-                         <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white mb-5  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Editorial Board Roles and Responsibilities</h2></div></div>
+                        <div className="flex justify-center lg:justify-start"><div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white mb-5  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Editorial Board Roles and Responsibilities</h2></div></div>
                         <div className="max-w-[600px] mx-auto w-fit">
-                            <img src="/images/editorpage.jpg" alt="img" className="lg:hidden block" />
+                            <img src="/images/editorpage.jpg" alt="img" loading='lazy' className="lg:hidden block" />
                         </div>
                         <h2 className="namdhinggo-bold lg:text-[24px] text-[20px]">International Conference on <span className="text-[#CD40BF]">IoT, Machine Learning, </span> and <span className="text-[#CD40BF]">Data Analytics</span></h2>
 
@@ -130,24 +240,38 @@ function Editorial() {
                     <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto bg-white mb-10 "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Meet Our Editorial Board Members</h2></div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:gap-10 xl:gap-10 lg:gap-10 gap-5 lg:mt-7 mt-5 place-items-center max-w-[1400px] mx-auto pb-10 lg:pb-15 ">
                         {editorial.map((item, index) => (
+                           
                             <div key={index} className="w-full group relative">
-                                <div className="bg-white rounded-[15px] shadow-[0_0_15px_rgba(0,0,0,0.25)] relative overflow-hidden group max-w-[500px] mx-auto">
+                                <div className=" md:block hidden bg-white rounded-[15px] shadow-[0_0_15px_rgba(0,0,0,0.25)] max-w-[400px] mx-auto text-center transition-all duration-500 cursor-pointer h-[140px] flex items-center justify-center relative">
 
-                                    <div className="flex justify-center">
-                                        <img src="/images/cnhuman.png" alt="image" className="w-full h-auto" loading="lazy" />
+                                    <div className="absolute inset-0 flex items-center justify-center transition-all duration-500 group-hover:opacity-0">
+                                        <p className="namdhinggo-bold text-[22px] lg:text-[24px] text-[#CD40BF]">{item.name}</p>
                                     </div>
 
-                                    <div
-                                        className=" absolute bottom-0 right-0  lg:w-[60px] lg:h-[60px] w-[220px] h-[180px]  bg-[#CD40BF]  rounded-tl-full  transition-all duration-500  lg:group-hover:w-[350px]  lg:group-hover:h-[250px]  flex items-center justify-center  overflow-hidden" >
-                                        <div className=" lg:opacity-0 opacity-100 translate-y-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 text-white text-center px-4 space-y-2 mt-10" >
-                                            <p className="namdhinggo-bold lg:text-[24px] text-[22px] leading-tight">{item.name}</p>
-                                            <div className="flex justify-center gap-2  leading-tight">   <MdOutlineWorkOutline className='text-[24px] text-white ' /><p className="text-[14px] md:text-[16px] lg:text-[20px] namdhinggo-medium mt-1.5 lg:mt-0">{item.expertise}</p></div>
-                                            <div className="flex justify-center gap-2  leading-tight">  <IoLocationSharp className='text-[24px] text-white ' /><p className="text-[14px] md:text-[14px] lg:text-[18px] namdhinggo-medium mt-1.5 lg:mt-0" >{item.country}</p></div>
-
-                                        </div>
+                                    <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 space-y-2 p-2">
+                                        <p className="text-[18px] lg:text-[18px] namdhinggo-medium text-gray-700">{item.expertise},</p>
+                                        <p className="text-[18px] lg:text-[18px] namdhinggo-medium text-[#CD40BF]">{item.university},</p>
+                                        <p className="text-[18px] lg:text-[18px] namdhinggo-medium text-gray-700">{item.country}</p>
                                     </div>
+
+                                </div>
+                                 <div className=" md:hidden bg-white rounded-[15px] shadow-[0_0_15px_rgba(0,0,0,0.25)] max-w-[400px] mx-auto text-center cursor-pointer flex flex-col items-center justify-center px-2 py-4 ">
+
+                                    <div className=" flex items-center justify-center transition-all duration-500 ">
+                                        <p className="namdhinggo-bold text-[22px] lg:text-[24px] text-[#CD40BF]">{item.name},</p>
+                                    </div>
+
+                                    <div className=" flex flex-col items-center justify-center space-y-2">
+                                        <p className="text-[18px] lg:text-[18px] namdhinggo-medium text-gray-700">{item.expertise},</p>
+                                        <p className="text-[18px] lg:text-[18px] namdhinggo-medium text-[#CD40BF]">{item.university},</p>
+                                        <p className="text-[18px] lg:text-[18px] namdhinggo-medium text-gray-700">{item.country}</p>
+                                    </div>
+
                                 </div>
                             </div>
+                            
+
+
                         ))}
                     </div>
                 </div>
@@ -163,8 +287,8 @@ function Editorial() {
                             <p className="namdhinggo-extrabold 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] text-[#CD40BF]">Ready to Join the Innovation ?</p>
                             <p className="inter-medium text-[16px] text-[#CD40BF] text-justify md:text-center ">Register now and secure your spot today to connect with global experts, explore emerging technologies, and be part of shaping the future of computer science.</p>
                             <div className="flex lg:flex-row flex-col lg:gap-10 gap-0 space-y-5  justify-center items-start sm:items-center lg:items-start">
-                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Beijing, China</p></div>
-                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">28th to 30th Sep, 2025</p></div>
+                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Chongqing, China</p></div>
+                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">26th December, 2025</p></div>
                                 <div className="flex gap-3"><BsFillClockFill className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">9:00 AM – 5:00 PM</p></div>
                             </div>
                             <Link to="/paper-submission">

@@ -22,8 +22,8 @@ export default function Approuter() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<Aboutpage />} />
           <Route path="/scope" element={<Scopepage />} />
-          <Route path="/editorial" element={<Editorialpage />} />
-          <Route path="/organize" element={<Organizingpage />} />
+          <Route path="/editorial-board" element={<Editorialpage />} />
+          <Route path="/organizing-committee" element={<Organizingpage />} />
           <Route path="/conference-tracks" element={<Conferencetrackspage />} />
           <Route path="/key-dates" element={<Datesandbankpage />} />
           <Route path="/contact-us" element={<Contactuspage/>} />

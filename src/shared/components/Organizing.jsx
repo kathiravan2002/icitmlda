@@ -96,12 +96,12 @@ function Organizing() {
             <div className="max-w-[1400px] mx-auto px-4 2xl:px-0 lg:mt-15 mt-10 overflow-hidden">
                 <div className="flex justify-center lg:flex-row flex-col items-center gap-10">
                     <div className="max-w-[600px] mx-auto w-fit">
-                        <img src="/images/editorpage.jpg" alt="img" className="hidden lg:block" />
+                        <img src="/images/editorpage.jpg" alt="img" loading='lazy' className="hidden lg:block" />
                     </div>
                     <div className=" space-y-3  ">
                         <div className="flex justify-center lg:justify-start"> <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit bg-white mb-5  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Organizing Committee Roles And Responsibilities</h2></div></div>
                         <div className="max-w-[600px] mx-auto w-fit">
-                            <img src="/images/editorpage.jpg" alt="img" className="lg:hidden block" />
+                            <img src="/images/editorpage.jpg" alt="img" loading='lazy' className="lg:hidden block" />
                         </div>
                         <h2 className="namdhinggo-bold lg:text-[24px] text-[20px]">International Conference on <span className="text-[#CD40BF]">IoT, Machine Learning, </span> and <span className="text-[#CD40BF]">Data Analytics</span></h2>
 
@@ -130,9 +130,9 @@ function Organizing() {
             </div>
 
 
-            <div className=" mt-15">
+            {/* <div className=" mt-15">
                 <div className="bg-[#FFF9FD] lg:pt-15 pt-10  px-4 " >
-                    {/* <h2 className="2xl:text-[32px] xl:text-[28px] lg:text-[28px] text-[28px] namdhinggo-extrabold text-[#CD40BF] text-center  ">Meet the team behind ICITMLDA 2025</h2> */}
+                    <h2 className="2xl:text-[32px] xl:text-[28px] lg:text-[28px] text-[28px] namdhinggo-extrabold text-[#CD40BF] text-center  ">Meet the team behind ICITMLDA 2025</h2>
                     <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto bg-white mb-10 "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Meet the team behind ICITMLDA 2025</h2></div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:gap-10 xl:gap-10 lg:gap-10 gap-5 lg:mt-7 mt-5 place-items-center max-w-[1400px] mx-auto pb-10 lg:pb-15 ">
                         {team.map((item, index) => (
@@ -160,7 +160,7 @@ function Organizing() {
                         ))}
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="pb-15  max-w-[1400px] mx-auto mt-15 px-4 2xl:px-0">
                 <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto  bg-white  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px]  namdhinggo-extrabold text-[#CD40BF]  ">Join Us at ICITMLDA 2025</h2></div>
@@ -172,8 +172,8 @@ function Organizing() {
                             <p className="namdhinggo-extrabold 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] text-[#CD40BF]">Ready to Join the Innovation ?</p>
                             <p className="inter-medium text-[16px] text-[#CD40BF] text-justify md:text-center ">Register now and secure your spot today to connect with global experts, explore emerging technologies, and be part of shaping the future of computer science.</p>
                             <div className="flex lg:flex-row flex-col lg:gap-10 gap-0 space-y-5  justify-center items-start sm:items-center lg:items-start">
-                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Beijing, China</p></div>
-                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">28th to 30th Sep, 2025</p></div>
+                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Chongqing, China</p></div>
+                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">26th December, 2025</p></div>
                                 <div className="flex gap-3"><BsFillClockFill className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">9:00 AM – 5:00 PM</p></div>
                             </div>
                             <Link to="/paper-submission">

@@ -57,10 +57,10 @@ function Home() {
                     {/* <img src="/images/herobghome.png" alt="img" className="relative" /> */}
                     <div className="flex-[50] relative z-10  flex flex-col 2xl:space-y-8 xl:space-y-5 lg:space-y-5 space-y-5 justify-center  max-w-[900px] px-5 md:px-10 lg:px-5" >
                         <div className="flex md:gap-10 gap-5 items-center">
-                            <p className="text-[#CD40BF] poppins-extrabold md:text-9xl text-8xl">28</p>
+                            <p className="text-[#CD40BF] poppins-extrabold md:text-9xl text-8xl">26</p>
                             <div className="space-y-2 max-w-[500px]">
-                                <div className=""><h2 className="text-white namdhinggo-extrabold md:text-[26px] text-[20px]">Sep, 2025</h2></div>
-                                <div className=""><h2 className="text-white namdhinggo-extrabold md:text-[26px] text-[20px]">Beijing, China</h2></div>
+                                <div className=""><h2 className="text-white namdhinggo-extrabold md:text-[26px] text-[20px]">Dec, 2025</h2></div>
+                                <div className=""><h2 className="text-white namdhinggo-extrabold md:text-[26px] text-[20px]">Chongqing, China</h2></div>
                             </div>
                         </div>
                         <h1 className="2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[28px] text-[25px] namdhinggo-extrabold text-white lg:text-start text-start">International Conference on <span className="text-[#CD40BF]">Internet of Things, Machine Learning, </span>and  <span className="text-[#CD40BF]">Data Analytics</span></h1>
@@ -86,7 +86,7 @@ function Home() {
                     </div>
 
                     <div className="relative max-w-[565px] px-4  ">
-                        <img src="/images/herohome2.png" alt="img" className="" />
+                        <img src="/images/herohome2.png" alt="img" className="" loading='lazy' />
                     </div>
                 </div>
 
@@ -165,14 +165,14 @@ function Home() {
 
 
 
-            <div className="bg-[#FFF9FD] mt-15" >
+            {/* <div className="bg-[#FFF9FD] mt-15" >
                 <div className="max-w-[1400px] mx-auto pt-15 space-y-10  pb-15 px-4">
                     <div className="border-3 border-[#CD40BF] flex justify-center items-center gap-5 rounded-full px-5 py-2 w-fit mx-auto lg:mx-0 bg-white  "><img src="/images/sun.png" alt="icon" className="w-8 h-8 logo-spin" /> <h2 className="lg:text-[26px] text-[24px] namdhinggo-extrabold text-[#CD40BF]  ">Our Featured Speakers</h2></div>
                     <p className=" text-[16px] leading-[30px] text-justify mt-5 inter-regular opacity-85">Our featured speakers include esteemed experts, innovators, and thought leaders from academia, industry, and research institutions worldwide. With deep expertise in IoT, machine learning, and data analytics, they will share transformative ideas, breakthrough research, and real-world experiences. Their sessions aim to inspire attendees, encourage collaboration, and spark impactful discussions on the future of intelligent and data-driven technologies.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:gap-20 xl:gap-10 lg:gap-10 gap-10 lg:mt-7 mt-5 place-items-center  ">
                         {speaker.map((item, index) => (
                             <div key={index} className="w-full group relative">
-                                {/* <div className="bg-white rounded-[15px] shadow-[0_0_15px_rgba(0,0,0,0.25)] relative overflow-hidden">
+                                <div className="bg-white rounded-[15px] shadow-[0_0_15px_rgba(0,0,0,0.25)] relative overflow-hidden">
                                     <div className="flex justify-center">
                                         <img src="/images/cnhuman.png" alt="image" className="w-full max-w-[500px] h-auto" loading='lazy' />
                                     </div>
@@ -182,7 +182,7 @@ function Home() {
                                         <p className="namdhinggo-extrabold text-[18px] md:text-[20px] lg:text-[24px]">{item.name}</p>
                                         <p className="namdhinggo-medium text-[16px] md:text-[18px] lg:text-[20px]">{item.position}</p>
                                     </div>
-                                </div> */}
+                                </div>
                                 <div className="bg-white rounded-[15px] shadow-[0_0_15px_rgba(0,0,0,0.25)] relative overflow-hidden group max-w-[500px] mx-auto">
                                     
                                     <div className="flex justify-center">
@@ -206,7 +206,7 @@ function Home() {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
 
             <div className="pb-15  max-w-[1400px] mx-auto mt-15 px-4 2xl:px-0">
@@ -219,8 +219,8 @@ function Home() {
                             <p className="namdhinggo-extrabold 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] text-[#CD40BF]">Ready to Join the Innovation ?</p>
                             <p className="inter-medium text-[16px] text-[#CD40BF] text-justify md:text-center ">Register now and secure your spot today to connect with global experts, explore emerging technologies, and be part of shaping the future of computer science.</p>
                             <div className="flex lg:flex-row flex-col lg:gap-10 gap-0 space-y-5  justify-center items-start sm:items-center lg:items-start">
-                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Beijing, China</p></div>
-                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">28th to 30th Sep, 2025</p></div>
+                                <div className="flex gap-3"><IoLocationSharp className='text-[26px] text-[#CD40BF]' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">Chongqing, China</p></div>
+                                <div className="flex gap-3"><FaCalendar className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">26th December, 2025</p></div>
                                 <div className="flex gap-3"><BsFillClockFill className='text-[24px] text-[#CD40BF] ' /><p className="namdhinggo-extrabold text-[20px] text-[#CD40BF]">9:00 AM – 5:00 PM</p></div>
                             </div>
                             <Link to="/paper-submission">
