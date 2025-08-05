@@ -179,7 +179,7 @@ function Editorial() {
     return (
         <div>
             <div className="lg:h-90 h-70   relative bg-cover bg-center " style={{ backgroundImage: "url('/images/allhero1.jpg')" }}>
-                <div className="absolute inset-0 bg-[#000000] opacity-75 lg:h-90 h-70 "></div>
+                <div className="absolute inset-0 bg-[#000000] opacity-65 lg:h-90 h-70 "></div>
                 <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-2">
                     <h2 className="text-[24px] md:text-[36px] lg:text-[45px] namdhinggo-medium text-white lg:mt-10 mt-15">Editorial Board</h2>
                     <div className="flex space-x-2 ">
