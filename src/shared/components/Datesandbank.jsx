@@ -72,7 +72,7 @@ function Datesandbank() {
             icon: "🎟️"
         },
         {
-            content1: "October 26, 2025",
+            content1: "December 26, 2025",
             title: "Conference Dates",
             icon: "🎤"
         },
