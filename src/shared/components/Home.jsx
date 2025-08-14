@@ -50,7 +50,7 @@ function Home() {
 
     return (
         <div >
-            <div className="relative  lg:h-screen bg-cover bg-center " style={{ backgroundImage: "url('/images/herohome3.jpg')" }}>
+            <div className="relative  xl:h-screen bg-cover bg-center " style={{ backgroundImage: "url('/images/herohome3.jpg')" }}>
 
                 <div className="absolute inset-0 bg-[#000000] opacity-0"></div>
                 <div className="flex 2xl:gap-15 gap-5 lg:flex-row flex-col-reverse justify-start items-center h-full max-w-[1400px] mx-auto py-20 2xl:pt-20 xl:pt-35 lg:pt-35 md:pt-40 pt-35 " >
