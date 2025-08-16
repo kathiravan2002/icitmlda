@@ -17,7 +17,7 @@ function HelmetComponent({title,canonical}) {
             <meta property="og:image" content="https://icitmlda.com/images/ICITMLDA.png" />
 
             <link rel="canonical" href={canonical} />
-            <link rel="icon" type="image/png" href="https://icitmlda.com//images/ICITMLDA Fav.png" />
+            <link rel="icon" type="image/png" href="https://icitmlda.com/images/ICITMLDA Fav.png" />
 
         </Helmet>
   )
