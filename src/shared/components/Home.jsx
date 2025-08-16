@@ -50,10 +50,10 @@ function Home() {
 
     return (
         <div >
-            <div className="relative  xl:h-screen bg-cover bg-center " style={{ backgroundImage: "url('/images/herohome3.jpg')" }}>
+            <div className="relative  2xl:h-screen bg-cover bg-center " style={{ backgroundImage: "url('/images/herohome3.jpg')" }}>
 
                 <div className="absolute inset-0 bg-[#000000] opacity-0"></div>
-                <div className="flex 2xl:gap-15 gap-5 lg:flex-row flex-col-reverse justify-start items-center h-full max-w-[1400px] mx-auto py-20 2xl:pt-20 xl:pt-35 lg:pt-35 md:pt-40 pt-35 " >
+                <div className="flex 2xl:gap-15 gap-5 lg:flex-row flex-col-reverse justify-start items-center h-full max-w-[1400px] mx-auto py-20 2xl:pt-20 xl:pt-45 lg:pt-35 md:pt-40 pt-35 " >
                     {/* <img src="/images/herobghome.png" alt="img" className="relative" /> */}
                     <div className="flex-[50] relative z-10  flex flex-col 2xl:space-y-8 xl:space-y-5 lg:space-y-5 space-y-5 justify-center  max-w-[900px] px-5 md:px-10 lg:px-5" >
                         <div className="flex md:gap-10 gap-5 items-center">
